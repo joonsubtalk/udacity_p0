@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Joon\'s Android Portfolio</string>
+
+    <string name="app_message">My Nanodegree Apps!</string>
+    <string name="action_settings">Settings</string>
+    <string name="buttonApp1">Spotify Streamer</string>
+    <string name="buttonApp2">Scores App</string>
+    <string name="buttonApp3">Library App</string>
+    <string name="buttonApp4">Build It Bigger</string>
+    <string name="buttonApp5">XYZ Reader</string>
+    <string name="buttonApp6">Capstone: My Own App</string>
+</resources>
