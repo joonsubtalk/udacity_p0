@@ -9,4 +9,7 @@
     <string name="buttonApp4">Build It Bigger</string>
     <string name="buttonApp5">XYZ Reader</string>
     <string name="buttonApp6">Capstone: My Own App</string>
+    <string name="colorRed">#c4063c</string>
+    <string name="colorOrange">#e0eaf1</string>
+    <string name="colorBlueLight">#e0eaf1</string>
 </resources>
