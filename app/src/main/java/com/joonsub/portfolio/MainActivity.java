@@ -4,7 +4,10 @@ import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
-
+import android.view.View;
+import android.content.Context;
+import android.widget.Toast;
+import android.widget.Button;
 
 public class MainActivity extends ActionBarActivity {
 
@@ -19,6 +22,16 @@ public class MainActivity extends ActionBarActivity {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.menu_main, menu);
         return true;
+    }
+
+    // Shows a toast
+    public void showToast(View v) {
+        Context context = getApplicationContext();
+        CharSequence text = getString(R.string.launchMessage, ((Button) v).getText());
+        int duration = Toast.LENGTH_SHORT;
+
+        Toast toast = Toast.makeText(context, text, duration);
+        toast.show();
     }
 
     @Override
