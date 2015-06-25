@@ -19,70 +19,29 @@
         android:id="@+id/textView" />
 
     <Button
-        android:layout_width="@dimen/activity_button_width"
-        android:layout_height="wrap_content"
-        android:text="@string/buttonApp1"
-        android:layout_gravity="center"
-        android:paddingBottom="@dimen/activity_vertical_margin"
-        android:paddingTop="@dimen/activity_vertical_margin"
-        android:background="@color/colorOrange"
-        android:layout_marginBottom="@dimen/activity_vertical_margin"
-        android:onClick="showToast"/>
+        style="@style/udacityBtn"
+        android:text="@string/buttonApp1"/>
 
     <Button
-        android:layout_width="@dimen/activity_button_width"
-        android:layout_height="wrap_content"
-        android:text="@string/buttonApp2"
-        android:layout_gravity="center"
-        android:paddingBottom="@dimen/activity_vertical_margin"
-        android:paddingTop="@dimen/activity_vertical_margin"
-        android:background="@color/colorOrange"
-        android:layout_marginBottom="@dimen/activity_vertical_margin"
-        android:onClick="showToast"/>
+        style="@style/udacityBtn"
+        android:text="@string/buttonApp2"/>
 
     <Button
-        android:layout_width="@dimen/activity_button_width"
-        android:layout_height="wrap_content"
-        android:text="@string/buttonApp3"
-        android:layout_gravity="center"
-        android:paddingBottom="@dimen/activity_vertical_margin"
-        android:paddingTop="@dimen/activity_vertical_margin"
-        android:background="@color/colorOrange"
-        android:layout_marginBottom="@dimen/activity_vertical_margin"
-        android:onClick="showToast"/>
+        style="@style/udacityBtn"
+        android:text="@string/buttonApp3"/>
 
     <Button
-        android:layout_width="@dimen/activity_button_width"
-        android:layout_height="wrap_content"
-        android:text="@string/buttonApp4"
-        android:layout_gravity="center"
-        android:paddingBottom="@dimen/activity_vertical_margin"
-        android:paddingTop="@dimen/activity_vertical_margin"
-        android:background="@color/colorOrange"
-        android:layout_marginBottom="@dimen/activity_vertical_margin"
-        android:onClick="showToast"/>
+        style="@style/udacityBtn"
+        android:text="@string/buttonApp4"/>
 
     <Button
-        android:layout_width="@dimen/activity_button_width"
-        android:layout_height="wrap_content"
-        android:text="@string/buttonApp5"
-        android:layout_gravity="center"
-        android:paddingBottom="@dimen/activity_vertical_margin"
-        android:paddingTop="@dimen/activity_vertical_margin"
-        android:background="@color/colorOrange"
-        android:layout_marginBottom="@dimen/activity_vertical_margin"
-        android:onClick="showToast"/>
+        style="@style/udacityBtn"
+        android:text="@string/buttonApp5"/>
 
     <Button
-        android:layout_width="@dimen/activity_button_width"
-        android:layout_height="wrap_content"
-        android:text="@string/buttonApp6"
-        android:layout_gravity="center"
-        android:paddingBottom="@dimen/activity_vertical_margin"
-        android:paddingTop="@dimen/activity_vertical_margin"
+        style="@style/udacityBtn"
         android:textColor="@android:color/white"
         android:background="@color/colorRed"
-        android:layout_marginBottom="@dimen/activity_vertical_margin"
-        android:onClick="showToast"/>
+        android:text="@string/buttonApp6"/>
 
 </LinearLayout>
